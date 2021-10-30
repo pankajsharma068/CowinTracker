@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginHorizontal="8dp"
+        android:layout_marginVertical="6dp"
+        android:background="@drawable/textborder">
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+
+            android:paddingHorizontal="15dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:weightSum="3">
+
+                <TextView
+                    android:id="@+id/heading"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:textColor="@drawable/button_color"
+                    android:text="Heading"
+                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
+                    android:textSize="15sp"
+                    android:textStyle="bold">
+
+                </TextView>
+
+
+                <TextView
+                    android:id="@+id/age"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:padding="4dp"
+                    android:text="Age:"
+
+                    android:textAppearance="@android:style/TextAppearance.Material.Headline"
+                    android:textColor="@drawable/button_color"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/dec"
+
+                android:layout_width="match_parent"
+                android:textColor="@color/design_default_color_secondary"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/add"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/design_default_color_secondary"
+                android:textAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
+                android:textSize="15dp"></TextView>
+
+            <TextView
+                android:id="@+id/slot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Description"
+                android:textColor="@color/design_default_color_secondary"
+                android:textAppearance="@style/ShapeAppearance.MaterialComponents.LargeComponent"
+                android:textSize="15dp"></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal"
+                android:weightSum="7"
+                android:layout_gravity="center">
+
+                <TextView
+                    android:id="@+id/dt1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textborder"
+                    android:onClick="datet7"
+                    android:padding="4dp"
+                    android:text="date1"
+                    android:textColor="@drawable/button_color"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dt2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textborder"
+                    android:onClick="datet7"
+                    android:padding="4dp"
+
+                    android:text="date2"
+                    android:textColor="@drawable/button_color"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dt3"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textborder"
+                    android:onClick="datet7"
+                    android:padding="4dp"
+                    android:text="date3"
+                    android:textColor="@drawable/button_color"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dt4"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textborder"
+                    android:onClick="datet7"
+                    android:padding="4dp"
+                    android:text="date4"
+                    android:textColor="@drawable/button_color"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dt5"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textborder"
+                    android:onClick="datet7"
+                    android:padding="4dp"
+                    android:text="date5"
+                    android:textColor="@drawable/button_color"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dt6"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textborder"
+                    android:onClick="datet7"
+                    android:padding="4dp"
+                    android:text="date6"
+                    android:textColor="@drawable/button_color"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/dt7"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginHorizontal="2dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/textborder"
+                    android:onClick="datet7"
+                    android:padding="4dp"
+                    android:text="date7"
+                    android:textColor="@drawable/button_color"
+                    android:textSize="10sp"
+                    android:textStyle="bold" />
+
+
+            </LinearLayout>
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>

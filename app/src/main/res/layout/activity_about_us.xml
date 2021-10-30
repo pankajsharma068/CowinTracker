@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ScrollView01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+<LinearLayout  xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/nextimage"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AboutUsActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ABOUT US "
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textColor="@color/design_default_color_secondary"
+        android:background="@drawable/textborder"
+        android:textSize="25dp"
+        android:gravity="center"
+        android:textStyle="bold"
+
+        android:layout_marginTop="30dp"
+        />
+
+  <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="Cowin Tracker App"
+      android:textStyle="bold"
+      android:layout_marginStart="40dp"
+      android:layout_marginEnd="40dp"
+      android:layout_marginTop="30dp"
+      android:padding="6dp"
+      android:background="@drawable/textborder"
+       android:gravity="center"
+        android:textSize="25sp"
+        android:textColor="@drawable/button_color"/>
+    <TextView
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:layout_marginTop="30dp"
+        android:id="@+id/editTextTextMultiLine"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+      android:background="@color/cardview_shadow_end_color"
+        android:ems="10"
+         android:textStyle="italic"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:text=" CoWin Tracker App helps us to get Realtime Availabilty of Coivid19 Vaccine According to your PinCode and
+  date . App will provide All the Center Detail for 18-45 and 45+ age group.
+  It will show us all the time slot availability for a specified date and you can book your Slot With A Single Click On Book YOur Slot NOW Button.It Will require only internet permission. This App Will Not Save any of  your Data."
+        android:gravity="start|top"
+        android:inputType="textMultiLine" />
+
+
+   <TextView
+       android:layout_width="130dp"
+       android:layout_height="wrap_content"
+       android:background="@drawable/textborder"
+       android:layout_marginTop="10dp"
+       android:layout_gravity="center"
+       android:text="Rate Us"
+       android:id="@+id/rateus"
+       android:textColor="@color/design_default_color_secondary"
+        android:gravity="center"
+       android:textStyle="bold"
+       android:onClick="rateus"
+       android:textSize="20sp"/>
+
+
+</LinearLayout>
+</ScrollView>
